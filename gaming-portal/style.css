@@ -1,0 +1,235 @@
+/*#2c3e50 blue */
+
+
+
+body{ 
+    font-family: 'Raleway', sans-serif;    
+}
+
+/* ==================
+      navbar
+==================*/
+#mainNavbar .navbar-brand {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: 'Libre Baskerville', serif; 
+}
+
+ #brand-underline {
+    width: 100px;
+    border: 2px solid #2c3e50;
+    margin: 0 auto 10px auto;
+}
+
+#mainNavbar .nav-link {
+    font-size: 1.2rem;
+    font-weight: 100;
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #2d3142;
+    transition: background 500ms;
+}
+
+.navbar.scrolled {
+    background: rgb(30, 69, 105);
+    transition: background 500ms;
+}
+
+
+
+
+
+
+/* ==================
+      banner
+==================*/
+
+header {
+    height: 100vh;
+    background: url(imgs/controller.jpg) fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-center{
+    height: 100vh;
+    font-family: 'Libre Baskerville', serif;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 80px;
+}
+
+.banner-underline {
+    width: 300px;
+    border: 3px solid #2c3e50;
+    margin: 0 auto 20px auto;
+}
+
+.banner-center a {
+    font-size: 30px;
+    font-family: 'Indie Flower', cursive;
+    width: 300px;
+    margin: 0px auto;
+    display: inline-block;
+    border: 3px solid whitesmoke;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.banner-center a:hover, .banner a:focus {
+    color: #2c3e50;
+    background-color: whitesmoke;
+}
+
+/* ============
+    services
+============= */
+
+/* title */
+.title {
+    margin: 20px 0;
+}
+
+.text-underline {
+    width: 200px;
+    border: 3px solid #2c3e50;
+    margin: 0 auto 10px auto;
+}
+
+#services {
+    padding: 40px;
+    color: #2d3142;
+    margin-bottom: 10px;
+}
+
+#services .icons {
+    font-size: 100px;
+    margin-bottom: 10px;
+}
+
+#services a {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: 'Indie Flower', cursive;
+    color: #fff;
+    background-color: #a9a9a9;
+}
+
+#services a:hover {
+    background-color: #ced0ce;
+}
+
+/* =======================
+            ABOUT
+======================== */
+
+#about {
+    background-color: #cbdbd2;
+    
+}
+
+#about .pic {
+    height: 600px;
+    background: url(imgs/pubg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 600px solid transparent;
+    border-left: 100px solid #cbdbd2;
+}
+
+#about .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*==========================
+    CONTACT US
+    =============================*/
+
+    #contact {
+        padding: 40px;
+        background-color: whitesmoke;
+    }
+    
+    #contact .form-control{
+        border-radius: 0 !important;
+        font-size: 20px;
+
+    }
+
+    #contact button {
+        background-color: #353531;
+        font-size: 26px;
+        color: #f15025;
+        margin-bottom: 20px;
+        font-family: 'Indie Flower', cursive;
+    }
+
+   #contact button:hover {
+        background-color: #ced0ce;
+    }
+
+    /*===============================
+        FOOTER
+        ======================*/
+    #footer {
+        padding: 40px;
+        color: whitesmoke;
+        background-color: #353531;
+    }
+
+    #footer  .text-underline{
+        margin-bottom: 40px;
+    }
+
+    #footer .footer-icons {
+        font-size: 60px;
+        padding-top: 30px;
+    }
+
+    #footer .footer-icons a{
+        color: deepskyblue;
+        text-decoration: none;
+    }
+
+    #footer .footer-icons a:hover {
+        color: #f15025;
+    }
+
+    #footer .copyrights h3{
+        padding: 40px 0;
+        color: #ced0ce;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
